@@ -29,10 +29,10 @@ Cloud Deployment: Compatible with AWS, Heroku, Azure, etc.
 ### 1. Clone the repository: git clone https://github.com/Asitmondal/GetSocial-Social-Media-Web-App-in-NodeJS.git
 cd GetSocial
 ### 2. Set up the backend:
-cd backend
-npm install
+cd backend <br>
+npm install <br>
 npm start
 ### 3. Set up the frontend
-cd ../frontend
-npm install
+cd ../frontend <br>
+npm install <br>
 npm start
