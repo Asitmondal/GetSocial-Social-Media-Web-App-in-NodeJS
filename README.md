@@ -1,8 +1,8 @@
 # GetSocial-Social-Media-Web-App-in-NodeJS
 Welcome to the GetSocial repository, a full-stack social media web application built with Node.js, Express.js, React, and MongoDB. This project demonstrates a robust and scalable architecture designed for modern web development, featuring user authentication, CRUD operations for posts, user profiles, real-time chat, and more.
 
-##Key Features:
-###User Authentication: 
+## Key Features:
+### User Authentication: 
 Secure signup and login functionality.
 ### Posts Management:
  Create, read, update, and delete posts.
@@ -19,7 +19,7 @@ Efficient search for posts and users.
 React, HTML, CSS.
 ### Backend: 
 Node.js, Express.js.
-##Database: 
+## Database: 
 MongoDB.
 Real-time Communication: Socket.io.
 Cloud Deployment: Compatible with AWS, Heroku, Azure, etc.
