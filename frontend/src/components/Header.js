@@ -1,10 +1,17 @@
-// Example for Header.js
 import React from "react";
+//import "./Header.css";
 
 const Header = () => {
   return (
-    <header>
-      <h1>GetSocial</h1>
+    <header className="navbar">
+      <div className="navbar__title">GetSocial</div>
+      <nav className="navbar__links">
+        <a href="/profile">My Profile</a>
+        <a href="/home">Home</a>
+        <a href="/create-post">Create Post</a>
+        <a href="/profile">Profile</a>
+        <a href="/single-post">Single Post</a>
+      </nav>
     </header>
   );
 };

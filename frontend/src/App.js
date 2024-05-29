@@ -1,8 +1,8 @@
 // src/App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import HomeGuest from "./components/HomeGuest";
 import HomeDashboard from "./components/HomeDashboard";
 import CreatePost from "./components/CreatePost";
@@ -11,6 +11,7 @@ import SinglePost from "./components/SinglePost";
 import NotFound from "./components/NotFound";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
