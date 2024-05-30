@@ -21,7 +21,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<HomeGuest />} />
-        {/* <Route path="/dashboard" element={<HomeDashboard />} /> */}
+        <Route path="/dashboard" element={<HomeDashboard />} />
         {/* <Route path="/create-post" element={<CreatePost />} /> */}
         <Route path="/profile" element={<Profile />} />
         {/* <Route path="/post/:id" element={<SinglePost />} /> */}
