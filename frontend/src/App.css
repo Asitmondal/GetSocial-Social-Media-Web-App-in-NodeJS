@@ -7,6 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
 /* Login page styles */
@@ -302,6 +303,52 @@ body {
   color: #555;
 }
 /* home Dashborad End */
+
+/* Not Found page styles */
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.notfound-container h1 {
+  font-size: 6rem;
+  margin: 0;
+  color: #007bff;
+}
+
+.notfound-container h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.notfound-container p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.home-link {
+  font-size: 1.2rem;
+  color: #007bff;
+  text-decoration: none;
+  border: 2px solid #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-link:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Page Not Found End */
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {

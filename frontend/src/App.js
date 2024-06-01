@@ -27,7 +27,7 @@ const App = () => {
         {/* <Route path="/post/:id" element={<SinglePost />} /> */}
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-        {/* <Route path="*" element={<NotFound />} /> */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>
