@@ -4,26 +4,6 @@ import React from "react";
 const HomeDashboard = () => {
   return (
     <div className="dashboard-container">
-      <div className="dashboard-sidebar">
-        <h3>Navigation</h3>
-        <ul>
-          <li>
-            <a href="/profile">Profile</a>
-          </li>
-          <li>
-            <a href="/create-post">Create Post</a>
-          </li>
-          <li>
-            <a href="/feed">Feed</a>
-          </li>
-          <li>
-            <a href="/messages">Messages</a>
-          </li>
-          <li>
-            <a href="/settings">Settings</a>
-          </li>
-        </ul>
-      </div>
       <div className="dashboard-main">
         <h2>Welcome to GetSocial</h2>
         <p>

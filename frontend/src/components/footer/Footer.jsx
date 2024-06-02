@@ -3,17 +3,26 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer__content">
-        <p>&copy; {new Date().getFullYear()} GetSocial. All rights reserved.</p>
-        <nav className="footer__links">
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
-          <a href="/privacy">Privacy Policy</a>
-          <a href="/terms">Terms of Service</a>
-        </nav>
-      </div>
-    </footer>
+    <div className="dashboard-sidebar">
+      <h3>Navigation</h3>
+      <ul>
+        <li>
+          <a href="/profile">Profile</a>
+        </li>
+        <li>
+          <a href="/create-post">Create Post</a>
+        </li>
+        <li>
+          <a href="/feed">Feed</a>
+        </li>
+        <li>
+          <a href="/messages">Messages</a>
+        </li>
+        <li>
+          <a href="/settings">Settings</a>
+        </li>
+      </ul>
+    </div>
   );
 };
 

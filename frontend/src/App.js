@@ -18,7 +18,7 @@ const App = () => {
   return (
     <Router>
       <Header />
-
+      <Footer />
       <Routes>
         <Route path="/" element={<HomeGuest />} />
         <Route path="/dashboard" element={<HomeDashboard />} />
@@ -29,7 +29,6 @@ const App = () => {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
     </Router>
   );
 };
