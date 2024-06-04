@@ -68,7 +68,6 @@ body {
 
 /* Login page End */
 
-
 /* Register page styles */
 .register-container {
   display: flex;
@@ -126,7 +125,6 @@ body {
 }
 
 /* Regester End */
-
 
 /* Home page styles */
 .home-container {
@@ -236,6 +234,8 @@ body {
   flex: 1;
   padding: 2rem;
   overflow-y: auto;
+  margin-left: 15rem;
+  margin-top: 0;
 }
 
 .dashboard-main h2 {
@@ -336,25 +336,25 @@ body {
   .navbar__links a {
     margin: 0.5rem 0;
   }
-/* home page */
+  /* home page */
 
-.home-container {
-  flex-direction: column;
-  align-items: center;
-}
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.home-div {
-  margin: 1rem 0;
-  max-width: none;
-  width: 80%;
-}
-/* home page end */
+  .home-div {
+    margin: 1rem 0;
+    max-width: none;
+    width: 80%;
+  }
+  /* home page end */
   /* Footer  */
-    .footer__links {
-      flex-direction: column;
-    }
-  
-    .footer__links a {
-      margin: 0.5rem 0;
-    }
+  .footer__links {
+    flex-direction: column;
+  }
+
+  .footer__links a {
+    margin: 0.5rem 0;
+  }
 }

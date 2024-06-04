@@ -1,6 +1,6 @@
 // src/App.js
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+//import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/Header";
@@ -12,13 +12,15 @@ import SinglePost from "./components/SinglePost";
 import NotFound from "./components/NotFound";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
-import Footer from "./components/footer/Footer";
+//import Footer from "./components/footer/Footer";
+import Sidebar from "./components/sidebar/Sidebar";
 
 const App = () => {
   return (
     <Router>
       <Header />
-      <Footer />
+      {/* <Footer /> */}
+      < Sidebar />
       <Routes>
         <Route path="/" element={<HomeGuest />} />
         <Route path="/dashboard" element={<HomeDashboard />} />

@@ -1,0 +1,36 @@
+.container-sidebar {
+		display: flex;
+    }
+
+.dashboard-sidebar {
+		width: 200px;
+		height: 100vh;
+		background-color: #002379;
+		color: #fff;
+		box-sizing: border-box;
+		position: fixed;
+        margin-top: 3rem;
+	}
+
+	/* .content {
+		flex: 1;
+		padding: 20px;
+		box-sizing: border-box;
+		margin-left: 200px;
+		text-align: justify;
+	} */
+
+	.dashboard-sidebar a {
+		display: block;
+		color: #fff;
+		text-decoration: none;
+		padding: 10px;
+        padding-top: 10px;
+		margin-bottom: 10px;
+		transition: background-color 0.3s;
+	}
+
+	/* Change background color on hover */ 	
+    	.dashboard-sidebar a:hover {
+			background-color: #2980b9;
+		}
