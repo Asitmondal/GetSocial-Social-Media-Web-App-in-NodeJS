@@ -1,0 +1,88 @@
+
+
+
+<link rel="stylesheet" href="../css/styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<div class="aside">
+    <div class="logo">
+        <img src="../img/logo.jpg" alt="logo" />
+        <a href="#">Dashboard</a>
+    </div>
+    <div class="nav-toggler">
+        <span></span>
+    </div>
+    <ul class="nav">
+        <li>
+            <a href="#"><i class="fa fa-home"></i> Home</a>
+        </li>
+        <li class="decrease">
+            <a href="#"><i class="fa fa-user"></i>
+                <%= agent.userty %>:<%= agent.name %>
+            </a>
+        </li>
+        <li>
+            <a href="order/updateorder"><i class="fa-solid fa-cart-shopping"></i></i>Update Order</a>
+        </li>
+        <li>
+            <a href="#"><i class="fa-solid fa-address-book"></i></i>Contact</a>
+        </li>
+        <li>
+            <a href="/users/logout" ><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+        </li>
+    </ul>
+</div>
+
+
+<!-- ====== card Section Start ====== -->
+<div class="card-container">
+    <div class="card">
+        <div class="content">
+            <div class="title">Total Couriers</div>
+            <div class="price" id="totalCouriersDisplay">0</div>
+                
+        </div>
+        <button id="showTotalCouriersButton">Show Total Couriers</button>
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="title">Accepted Couriers</div>
+            <div class="price">0</div>
+
+        </div>
+        <button onclick="">
+                        Accepted Couriers
+                      </button>
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="title">Dispatched Couriers</div>
+            <div class="price">0</div>
+
+            <button>
+                        Dispatched Couriers
+                      </button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="title">Unsuccessful Couriers</div>
+            <div class="price">0</div>
+
+        </div>
+        <button>
+                       Unsuccessful Couriers
+                      </button>
+    </div>
+</div>
+<!-- ====== Card Section End ====== -->
+
+
+
+<!-- <h1 class="mt-4">Dashboard</h1>
+<p class="lead mb-3">Welcome <%= agent.name %> Agent</p>
+<p class="lead mb-3">Welcome <%= agent.userty %> Agent</p>
+<p class="lead mb-3">Welcome <%= agent.email %> Agent</p>
+<p class="lead mb-3">Welcome <%= agent.address %> Agent</p>
+<a href="order/updateorder" class="btn btn-secondary">Update Order</a>
+<a href="/users/logout" class="btn btn-secondary">Logout</a> -->

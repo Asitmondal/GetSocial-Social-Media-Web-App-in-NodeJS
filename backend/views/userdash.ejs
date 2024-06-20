@@ -1,0 +1,105 @@
+<link rel="stylesheet" href="../css/styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<div class="aside">
+    <div class="logo">
+        <img src="../img/logo.jpg" alt="logo" />
+        <a href="#">Dashboard</a>
+    </div>
+    <div class="nav-toggler">
+        <span></span>
+    </div>
+    <ul class="nav">
+        <li>
+            <a href="#" ><i class="fa fa-home"></i> Home</a>
+        </li>
+        <li class="decrease">
+            <a href="#"><i class="fa fa-user"></i><%= user.userty %>:<%= user.name %></a>
+        </li>
+        <li>
+            <a href="order/addorder"><i class="fa-solid fa-cart-shopping"></i></i>Add Order</a>
+        </li>
+        <li>
+            <a href="#"><i class="fa-solid fa-address-book"></i></i>Contact</a>
+        </li>
+        <li>
+            <a href="/users/logout"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+        </li>
+    </ul>
+</div>
+
+
+<!--  -->
+<div class="header-user">
+    <img src="../img/logo.jpg" alt="Profile Photo" class="profile-photo">
+    <div class="profile-info">
+        <div class="name"><%= user.name %></div>
+        <div class="email"><%= user.email %></div>
+    </div>
+</div>
+<!--  -->
+
+<!-- ====== card Section Start ====== -->
+<div class="card-container">
+    <div class="card">
+        <div class="content">
+            <div class="title">Total Couriers</div>
+            <div class="price">0</div>
+
+        </div>
+        <!-- <button>
+                        Buy now
+                      </button> -->
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="title">Accepted Couriers</div>
+            <div class="price">0</div>
+
+        </div>
+
+    </div>
+</div>
+<!-- ====== Card Section End ====== -->
+<!-- ====== Tracking Section #YWSNWDAAW ==== -->
+<div class="tracking-container">
+    <h2>Order: <span class="order-number"></span><%= user.id %></h2>
+    <div class="progress-bar">
+        <div class="progress2">
+            <div class="progress-step2 complete"></div>
+            <div class="progress-step2 ball"></div>
+            <div class="progress-step2 ball" ></div>
+            <div class="progress-step2 ball"></div>
+        </div>
+    </div>
+    <div class="status-icons">
+        <div class="status">
+            <img src="../img/or_process.jpg" alt="Order Processed">
+            <p>Order Processed</p>
+        </div>
+        <div class="status">
+            <img src="../img/or_shift.jpg" alt="Order Shipped">
+            <p>Order Shipped</p>
+        </div>
+        <div class="status">
+            <img src="../img/Route.jpg" alt="Order En Route">
+            <p>Order En Route</p>
+        </div>
+        <div class="status">
+            <img src="../img//order.png" alt="Order Arrival">
+            <p>Order Arrival</p>
+        </div>
+    </div>
+    <div class="tracking-info">
+        <p>Expected Arrival <span class="arrival-date">5th Jun 2024</span></p>
+        <p>USPS <span class="usps-number">2374723467163473124234</span></p>
+    </div>
+
+</div>
+<!-- ====== Tracking Section ==== -->
+<!-- <p class="lead mb-3">Welcome <%= user.name %> User</p>
+<p class="lead mb-3">Welcome <%= user.userty %> User</p>
+<p class="lead mb-3">Welcome <%= user.email %> User</p>
+<p class="lead mb-3">Welcome <%= user.address %> User</p>
+<a href="order/addorder" class="btn btn-secondary">Add Order</a>
+<a href="/users/logout" class="btn btn-secondary">Logout</a> -->
